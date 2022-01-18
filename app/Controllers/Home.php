@@ -8,4 +8,14 @@ class Home extends BaseController
     {
         return view('template');
     }
+
+    public function produk()
+    {
+        return view('product');
+    }
+
+    public function user()
+    {
+        return view('user');
+    }
 }
